@@ -136,8 +136,7 @@ export MOZ_APP_REMOTINGNAME=$pkgname
 
 # Keys
 ac_add_options --with-google-location-service-api-keyfile=${PWD@Q}/google-api-key
-ac_add_options --with-google-safebrowsing-api-keyfile=${PWD@Q}/google-api-key
-s
+ac_add_options --with-google-safebrowsing-api-keyfile=${PWD@Q}/google-api-keys
 # System libraries
 ac_add_options --with-system-nspr
 ac_add_options --with-system-nss
