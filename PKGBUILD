@@ -148,6 +148,7 @@ ac_add_options --enable-jack
 ac_add_options --enable-crashreporter
 ac_add_options --disable-updater
 ac_add_options --disable-tests
+ac_add_options --disable-jemalloc
 END
 }
 
