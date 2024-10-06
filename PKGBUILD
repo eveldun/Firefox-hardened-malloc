@@ -149,6 +149,7 @@ ac_add_options --disable-updater
 ac_add_options --disable-tests
 ac_add_options --enable-replace-malloc
 #ac_add_options --disable-jemalloc
+ac_add_options --debug
 END
 }
 
@@ -169,7 +170,7 @@ build() {
   CFLAGS="${CFLAGS/-fexceptions/}"
   CXXFLAGS="${CXXFLAGS/-fexceptions/}"
 
-  # LTO needs more open files
+  # LO needs more open files
   ulimit -n 4096
 
   # Do 3-tier PGO
