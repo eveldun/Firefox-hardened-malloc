@@ -49,7 +49,7 @@ makedepends=(
   imake
   jack
   lld
-  lvm
+  llvm
   mesa
   nasm
   nodejs
