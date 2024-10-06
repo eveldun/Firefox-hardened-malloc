@@ -49,7 +49,7 @@ makedepends=(
   imake
   jack
   lld
-  llvm
+  lvm
   mesa
   nasm
   nodejs
@@ -84,19 +84,20 @@ source=(
 )
 validpgpkeys=(
   # Mozilla Software Releases <release@mozilla.com>
-  # https://blog.mozilla.org/security/2023/05/11/updated-gpg-key-for-signing-firefox-releases/
-  #14F26682D0916CDD81E37B6D61B7B526D98F0353
+  #https://blog.mozilla.org/security/2023/05/11/updated-gpg-key-for-signing-firefox-releases/
+  #This is not the mozilla official key btw
+  6F3F4B8B64851AE79E2AB5D60E142CB02316B030
 )
-#sha256sums=('e4066ef47c65aac570aa16deefb8c3937c1c9b0755dbf2f760937c451174fb1d'
-#            'SKIP'
-#            'a9b8b4a0a1f4a7b4af77d5fc70c2686d624038909263c795ecc81e0aec7711e9'
-#            '71fe797430198ac8c00b538dce537284cf526e48be0496698cf5a980d70c16da'
-#            '58d78ce57b3ee936bc966458d6b20ab142d02a897bbe924b3f26717af0c5bee1')
-# b2sums=('ffb8c12ba76f8d06501287ba1c61279e9167f0684275d8cf7e2c3be0697326ded824ccd60f8e44ca7374b59e9e580b2dcba23d2dce4bb184d2e73faa86d9d5af'
-#        'SKIP'
-#        '63a8dd9d8910f9efb353bed452d8b4b2a2da435857ccee083fc0c557f8c4c1339ca593b463db320f70387a1b63f1a79e709e9d12c69520993e26d85a3d742e34'
-#        '2c7936949ef922307fb593bd0480a13bde2eab8ae24fc89071d809d6659384705f9b7838b1ae8bc46b98a152ba01fcffad606d4c84796ad9bfaaf20166f0a0fd'
-#        '2ce33432f8a73a4f1a412b7a065d3c124e1ca9f6bdf3fad0407e897efc0840f8ef43eeeb1b9bef4a102d9fac0b2c4a2ef205726b817f83fe9c3742d076778b14')
+sha256sums=('e4066ef47c65aac570aa16deefb8c3937c1c9b0755dbf2f760937c451174fb1d'
+            'SKIP'
+            'a9b8b4a0a1f4a7b4af77d5fc70c2686d624038909263c795ecc81e0aec7711e9'
+            '71fe797430198ac8c00b538dce537284cf526e48be0496698cf5a980d70c16da'
+            '58d78ce57b3ee936bc966458d6b20ab142d02a897bbe924b3f26717af0c5bee1')
+ b2sums=('ffb8c12ba76f8d06501287ba1c61279e9167f0684275d8cf7e2c3be0697326ded824ccd60f8e44ca7374b59e9e580b2dcba23d2dce4bb184d2e73faa86d9d5af'
+        'SKIP'
+        '63a8dd9d8910f9efb353bed452d8b4b2a2da435857ccee083fc0c557f8c4c1339ca593b463db320f70387a1b63f1a79e709e9d12c69520993e26d85a3d742e34'
+        '2c7936949ef922307fb593bd0480a13bde2eab8ae24fc89071d809d6659384705f9b7838b1ae8bc46b98a152ba01fcffad606d4c84796ad9bfaaf20166f0a0fd'
+        '2ce33432f8a73a4f1a412b7a065d3c124e1ca9f6bdf3fad0407e897efc0840f8ef43eeeb1b9bef4a102d9fac0b2c4a2ef205726b817f83fe9c3742d076778b14')
 
 # Google API keys (see http://www.chromium.org/developers/how-tos/api-keys)
 # Note: These are for Arch Linux use ONLY. For your own distribution, please
