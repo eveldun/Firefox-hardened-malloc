@@ -1,5 +1,4 @@
 # Maintainer: Elijah Bingham (Eveldun)  <eveldun123@protonmail.com>
-# Maintainer: Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 # Contributor: Ionut Biru <ibiru@archlinux.org>
 # Contributor: Jakub Schmidtke <sjakub@gmail.com>
 
@@ -84,9 +83,9 @@ source=(
 )
 validpgpkeys=(
   # Mozilla Software Releases <release@mozilla.com>
-  #https://blog.mozilla.org/security/2023/05/11/updated-gpg-key-for-signing-firefox-releases/
   #This is not the mozilla official key btw
-  ADD7079479700DCADFDD5337E36D3B13F3D93274
+  'ADD7079479700DCADFDD5337E36D3B13F3D93274'
+  '14F26682D0916CDD81E37B6D61B7B526D98F0353'
 )
 sha256sums=('e4066ef47c65aac570aa16deefb8c3937c1c9b0755dbf2f760937c451174fb1d'
             'SKIP'
