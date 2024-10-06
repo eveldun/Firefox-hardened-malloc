@@ -86,7 +86,7 @@ validpgpkeys=(
   # Mozilla Software Releases <release@mozilla.com>
   #https://blog.mozilla.org/security/2023/05/11/updated-gpg-key-for-signing-firefox-releases/
   #This is not the mozilla official key btw
-  6F3F4B8B64851AE79E2AB5D60E142CB02316B030
+  ADD7079479700DCADFDD5337E36D3B13F3D93274
 )
 sha256sums=('e4066ef47c65aac570aa16deefb8c3937c1c9b0755dbf2f760937c451174fb1d'
             'SKIP'
