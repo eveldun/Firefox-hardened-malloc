@@ -3,7 +3,7 @@
 # Contributor: Ionut Biru <ibiru@archlinux.org>
 # Contributor: Jakub Schmidtke <sjakub@gmail.com>
 
-pkgname=firefox-hardened-malloc
+pkgname=firefox
 pkgver=131.0
 pkgrel=1
 pkgdesc="Fast, Private & Safe Web Browser"
@@ -20,7 +20,7 @@ depends=(
   fontconfig
   freetype2
   gcc-libs
-  hardened-malloc
+  hardened_malloc
   gdk-pixbuf2
   glib2
   glibc
@@ -137,7 +137,7 @@ export MOZ_APP_REMOTINGNAME=$pkgname
 # Keys
 ac_add_options --with-google-location-service-api-keyfile=${PWD@Q}/google-api-key
 ac_add_options --with-google-safebrowsing-api-keyfile=${PWD@Q}/google-api-key
-
+s
 # System libraries
 ac_add_options --with-system-nspr
 ac_add_options --with-system-nss
